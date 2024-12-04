@@ -20,9 +20,14 @@ Follow all the instructions for setting up and run the project locally.
 2. Installing required dependencies
    ```bash
    pip install pandas numpy scikit-learn matplotlib seaborn
-
-### Run the code 
+3. Navigate to project directory
+   ```bash
+   cd HeartDiseasePrediction
+4. Run the code which i used for testing 
    ```bash
    jupyter notebook Assignment3_1200-Inroduction to Data Analysis.ipynb
 ### Author
    Contact: anjiunnam1999@gmail.com
+
+### Licence
+   This project is licenced under the MIT License
