@@ -17,3 +17,12 @@ Follow all the instructions for setting up and run the project locally.
 1. Clone the repository:
    ```bash
    git clone https://github.com/anjiunnam/HeartDiseasePrediction.git
+2. Installing required dependencies
+   ```bash
+   pip install pandas numpy scikit-learn matplotlib seaborn
+
+### Run the code 
+   ```bash
+   jupyter notebook Assignment3_1200-Inroduction to Data Analysis.ipynb
+### Author
+   Contact: anjiunnam1999@gmail.com
