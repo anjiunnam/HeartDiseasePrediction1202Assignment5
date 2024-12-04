@@ -3,6 +3,12 @@ Creating my 1st readme.md file
 
 # Heart Disease Prediction using Machine Learning
 
+## Dataset Information
+- The dataset includes health-related attributes and labels to predict heart disease.
+- Attributes include BMI, Smoking status, Physical Activity, Stroke history, and more.
+- **Target Variable**: `HeartDisease` (Yes/No).
+- The dataset is balanced and prepared for classification tasks.
+
 ## Overview
 The project i have created predicts heart disease using Python and machine learning models. It processes health data to train and evaluate models like Decision Trees, Logistic Regression, KNN, MLP, and SVM.
 
@@ -11,11 +17,11 @@ Follow all the instructions for setting up and run the project in any local mach
 
 ### Prerequisites
 - Python 3.8 or higher versions
-- Pandas
-- Numpy
-- Scikit-learn
-- Matplotlib
-- Seaborn
+- Pandas: Data manipulation and preprocessing.
+- NumPy: Numerical computations.
+- Scikit-learn: Machine learning algorithms and evaluation.
+- Matplotlib & Seaborn: Data visualization.
+- Jupyter Notebook: Interactive environment for code and analysis.
 
 ### Installing
 1. Clone the repository:
@@ -42,6 +48,19 @@ Follow all the instructions for setting up and run the project in any local mach
 
 ### Deployment
    This project can be deployed on platforms like AWS, Azure, or Google Cloud using FastAPI for    the backend.
+
+### Challenges 
+1. **Handling Missing Data**:
+   - Solution: Applied imputation techniques to fill missing values.
+2. **Imbalanced Dataset**:
+   - Solution: Used techniques like SMOTE (Synthetic Minority Oversampling) to balance the classes.
+3. **Choosing the Right Model**:
+   - Solution: Evaluated multiple models and selected the one with the best performance metrics.
+
+### Results
+- The Support Vector Machine (SVM) achieved the highest accuracy i.e., 87%.
+- Logistic Regression showed the best precision score of 85%.
+- Feature importance analysis revealed that `Age` and `PhysicalActivity` were the most             significant predictors of heart disease.
 
 ### Author
    Contact: anjiunnam1999@gmail.com
